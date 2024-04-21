@@ -5,8 +5,8 @@ Tags: contact form,database,contact form database,save contact form,form databas
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.2.1
-Tested up to: 5.0.2
-Stable tag: 2.10.36
+Tested up to: 8.3.6
+Stable tag: 2.10.37k
 
 Saves submitted form data to the database. Export the data to a file or use shortcodes to display it.
 
@@ -88,6 +88,11 @@ You can always deactivate the plugin without loosing data.
 1. Admin Panel view of submitted form data
 
 == Changelog ==
+
+= 2.10.37k =
+* Tested up WordPress 6.5.2 with PHP 8.3.6.
+* Bug Fix: “[PHP 8.1] Deprecated: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated” - CFDBViewWhatsInDB.php on line 71
+* Bug Fix: “[PHP 8.1] Deprecated: Implicit conversion from float-string "1692501560.5118" to int loses precision” - CF7DBPlugin.php on line 1227
 
 = 2.10.37 =
 * Bug Fix: "[PHP 8.0] implode(): Argument #2 ($array) must be of type ?array, string given #94" - https://github.com/mdsimpson/contact-form-7-to-database-extension/pull/96

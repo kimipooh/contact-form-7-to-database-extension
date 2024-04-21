@@ -44,6 +44,10 @@ Use shortcodes such as [cfdb-html], [cfdb-table], [cfdb-datatable], [cfdb-value]
 Use the short code builder page to set short code options.
 
 
+## Forked Purpose
+Make it work with newer PHP and WordPress without warning by Kimiya Kitani.
+
+
 ## Frequently Asked Questions
 
 > Is there a tutorial?
